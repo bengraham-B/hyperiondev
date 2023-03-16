@@ -1,0 +1,30 @@
+1. 
+A proptocol is an esstablished set of rules which dictate how data/infirmation is transfered between devices which are connect to the same
+network, despite differences in their internal processing, structures and/or designs. (1) https://www.comptia.org
+
+2. HTTP is built on TCP/IP protocols. (2) www.khanacademy.org
+
+3. 200s
+
+4.  The equivalent CRUD method in HTTP is POST, GET, PUT, PATCH.
+
+5. 
+A stateless protocol is a network protocol, in which a client will send a request to the server and the server will respond to that request
+based on the current state, furthermore this protocol does not require the server to retain information regading the session, sattus of 
+commmunicating parntners and the HTTP requests are indepent from requests which came prior. (4) https://byjus.com & (5) HyperionDev
+
+A stateless protcol, means that requests are indepenet from other reqesuts made prior to the current request.
+
+6. b, c, d, e      (1) wordpress.stackexchange.com
+
+7. Status code: 403. (3) https://developer.mozilla.org
+
+
+Resources used:
+(1) https://wordpress.stackexchange.com/questions/46125/what-is-the-correct-mime-type-for-psd-photoshop: Imformation regaring psd images and their MIME Type.
+(2) https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet/xcae6f4a7ff015e7d:web-protocols/a/hypertext-transfer-protocol-http#:~:text=HTTP%20is%20a%20protocol%20that's,data%20can%20be%20quite%20large. : Information regarding what HTTP is built on.
+(3) https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403: Information regarding question 7.
+(4) https://byjus.com/gate/difference-between-stateless-and-stateful-protocol/#:~:text=A%20Stateless%20Protocol%20is%20a,communicating%20partner%20in%20multiple%20requests: Information regarding question 5
+(5) HyperionDev L2T03 Fullstack Web Development PDF: Information regarding question 5
+(6) https://www.restapitutorial.com/lessons/httpmethods.html#:~:text=The%20primary%20or%20most%2Dcommonly,or%20CRUD)%20operations%2C%20respectively: Information regarding question 4
+(7) https://www.comptia.org/content/guides/what-is-a-network-protocol#:~:text=A%20network%20protocol%20is%20an,internal%20processes%2C%20structure%20or%20design. Information regarding question 1

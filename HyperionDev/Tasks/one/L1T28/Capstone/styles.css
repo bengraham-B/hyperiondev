@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: "poppins"; /** Seeting all fonts on this page to poppins*/
+}
+
+#body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/225-ground-wallpaper.jpeg'); /** (2) https://stackoverflow.com*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*? ======================== Index Title ========================== */
+
+#index-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 61px;
+    color:white;
+}
+
+#title-h1 {
+    font-size: 81px;
+}
+/*? ======================================================= */
+
+
+.border {
+    outline: 1px black solid;
+}
+
+
+/*~ ======================== links ========================== */ /* These are the links to the other two web pages  */
+
+#links-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 185px;
+    height: 75px;
+    outline: 2px white solid;
+}
+
+
+#links > a {
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+}
+
+#links:hover{
+    transition: ease-in-out 0.15s;
+    outline: 3px black solid;
+}
+
+#links:hover a{ /** (1) https://stackoverflow.com */
+    background: white;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.15s;
+}
+
+
+/*~ ======================================================== */
+/* 
+* Resources Used:
+* (1) https://stackoverflow.com/questions/11193762/change-link-color-on-div-hover: Information redarding hovering over a div and changing the colour of the a tag.
+* (2) https://stackoverflow.com/questions/26621513/darken-css-background-image: Information Regarding darkening a background image.
+* (3)
+* (4)
+* ()
+*/

@@ -1,0 +1,17 @@
+{
+  "name": "my_first_module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rdup": "node remove_duplicates.js"
+  },
+  "author": "Ben Graham",
+  "license": "ISC",
+  "dependencies": {
+    "loaddash": "^0.0.1-security",
+    "lodash": "^4.17.21"
+  }
+}

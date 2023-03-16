@@ -1,0 +1,11 @@
+.div-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.-x-{
+    margin-left: 5px;
+}
+
+.close {display: none}

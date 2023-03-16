@@ -1,0 +1,8 @@
+git remote add origin https://github.com/bengraham-B/gitTask.git
+git branch -M main
+git push -u origin main
+
+                      --- issue-1 ---
+git remote add origin https://github.com/bengraham-B/gitTask.git
+git branch -M issue-1
+git push -u origin issue-1

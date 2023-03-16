@@ -1,0 +1,38 @@
+
+separationString = (myString) => {
+    // Place your code here
+    let seperationArray = []
+    let prev = ''
+    
+    for(let i = 0; i < myString.length; i++){
+        seperationArray.push(myString[i])
+    }
+    
+    for(let i = 0; i < myString.length; i++){
+        if(myString[i] == " "){
+            prev =  ` ${prev}\n${myString[i]}` 
+        }
+        prev =  prev + myString[i] 
+    }
+    return prev
+}
+
+
+// DO NOT EDIT BELOW THIS LINE
+let testStrings = [
+    "Hello World",
+    "Hello",
+    "HELLO",
+    "Software Engineering is Fun",
+    "I like Javascript",
+    "Line1 Line2 Line3 Line4 Line5 Line6 Line7 Line8 Line9"
+];
+
+console.log("------------------------------------------------")
+
+testStrings.forEach((sentence) => {
+    let sep = separationString(sentence);
+    console.log(sep);
+    console.log("------------------------------------------------")
+
+});

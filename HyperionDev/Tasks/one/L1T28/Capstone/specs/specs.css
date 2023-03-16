@@ -1,0 +1,170 @@
+/*~ --------------------------- Body ----------------------------------- */
+
+body{
+    background: rgb(44, 45, 44);
+    color: white;
+}
+
+/*~ -------------------------------------------------------------------- */
+
+/*^ -------------------------------- Nav -------------------------------- */
+#specs-nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*^ -------------------------------------------------------------------- */
+
+
+/*? ============================== Table ================================== */ /* (1) https://www.w3schools.com */
+#table-div{
+    width: 100%;
+    height: 100%;
+    display: felx;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+#table{
+    border: 2px solid white;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+th {
+    font-size: 31px;
+    border: 2px solid white;
+}
+
+tr {
+    height: 50px;
+    border: 2px solid white;
+
+}
+
+td {
+    font-size: 25px;
+    margin: 15px;
+    border: 2px solid white;
+
+}
+/*? ==================================================================== */
+
+/*^ ========================== Picture Columns ========================== */
+
+.pic-specs{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#pic-225{
+    background: url('https://images.flyingmag.com/flyingma/wp-content/uploads/2022/03/31095900/shutterstock_1065944747-1-1-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pic-124{
+    background: url('https://www.airforce-technology.com/wp-content/uploads/sites/6/2000/06/Image-3-An-124-Ruslan.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pic-galaxy{
+    background: url('https://www.thedrive.com/content/2017/05/c-5-2.jpg?quality=85');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*^ ===================================================================== */
+
+
+
+/*? ============================ Links ================================== */
+#link {
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+}
+
+/*? ===================================================================== */
+
+
+
+
+/** ========================== Form ====================================== */
+#form {
+   width: 100%;
+   height: auto;
+   background: grey;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 5px;
+}
+
+#info-input-div > height {
+    height: 50px;
+    font-size: 31px;
+
+}
+
+.input-box{
+    width: 250px;
+}
+.input-box-info{
+    height: 150px;
+}
+
+#input-field{
+    margin: 15px;
+}
+
+#radio-div { /* The div which contains the radio buttons*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#button-div {
+    margin: 15px;
+}
+
+.radio-button{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 2.5px;
+}
+
+.radio-button > input {
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+/** ===================================================================== */
+
+
+
+
+
+/* 
+Resourse Used: 
+(1) https://www.w3schools.com/html/html_tables.asp: Information  regarding using HTML tables
+(2) https://getbootstrap.com/docs/5.0/forms/overview/: Information  regarding using bootstrap forms
+
+*/

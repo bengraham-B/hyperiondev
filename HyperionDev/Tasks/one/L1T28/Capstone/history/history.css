@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(44, 45, 44);;
+    color: white;
+}
+#history-main {
+    width: 100%;
+    height: auto;
+}
+
+/*^ -------------------------------- Nav -------------------------------- */
+#history-nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*^ -------------------------------------------------------------------- */
+
+
+#row{
+    height: 500px;
+}
+
+
+#text-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Putting paragraph tags underneath each other*/
+    background: rgb(73, 69, 69);
+    color: white;
+}
+
+
+/*~ -------------------------------- Row One -------------------------------- */
+#pic-row-one {
+    height: 400px;
+    background: url('./historyAssets/carrying-shuttle.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/*~ --------------------------------------------------------------------------*/
+
+
+
+/*! -------------------------------- Row Two -------------------------------- */
+
+
+#pic-row-two {
+    height: 400px;
+    background: url('./historyAssets/american-carring-spacecrafts.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/*! --------------------------------------------------------------------------*/
+
+
+/*? -------------------------------- Row Three -------------------------------- */
+
+#row-three{
+    height: 550px; /*? Setting height for the third row specificallt due to the large amount of text.*/
+}
+
+#pic-row-three {
+    background: url('https://i.ytimg.com/vi/TbmWBasVYf8/maxresdefault.jpg');
+    background: url('https://t.plnspttrs.net/18412/740770_f4c0966033_280.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#row-three-list{
+    text-align: start;
+
+}
+
+/*? --------------------------------------------------------------------------*/
+
+
+
+/*& -------------------------------- Row Four -------------------------------- */
+
+#row-four{
+    height: 400px; /*? Setting height for the third row specificallt due to the large amount of text.*/
+}
+
+#pic-row-four {
+    background: url('https://www.airfreight-logistics.com/wp-content/uploads/2021/12/unnamed.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/*? --------------------------------------------------------------------------*/
+
+
+/*& -------------------------------- Row Five -------------------------------- */
+
+
+#pic-row-five {
+    height: 400px; 
+    background: url('https://www.aircargonews.net/wp-content/uploads/2021/07/Antonov-AN-225-1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/*& --------------------------------------------------------------------------*/
+
+
+
+
+/*^  --------------------------- Resources Used  --------------------------- */
+/** This is the background for the rsources used tab */
+.text-row-resources {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    background-color: rgb(44, 45, 44);
+    color: white;
+}
+
+/*^ -------------------------------------------------------------------------- */

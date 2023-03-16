@@ -1,0 +1,8 @@
+o What is the difference between using CommonJS and ES6 for loading modules?
+    ES6 uses will load modules using `import express from "express"`, 
+    where as CommonJS will use const express = require('express).
+
+
+o List 3 pros of using CommonJS, and list 3 cons of using CommonJS. 
+
+o List 3 pros of using ES6, and list 3 cons of using ES6.

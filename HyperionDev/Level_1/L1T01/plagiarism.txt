@@ -1,0 +1,27 @@
+// Used the defention of plagiarism from both HyperionDev's Plagiarism policy  and the website of https://www.ox.ac.uk/students/academic/guidance/skills/plagiarism
+// to formulate my answer.
+1. Plagiarism is the act of falsely representing ones work, ideas or words as your own orginal work.
+
+// Used HyperionDev's Plagiarism policy to formulate my answer.
+2. The four types of plagiarism include, direct plagiarism, self-plagiarism, mosaic plagiarism and accidential plagiarism.
+
+      Direct-plagiarism: A student copys the text from a text book without refrencing it or paraphrasing.
+
+      Self-paraphrasing: A student writes a report on the use of artificial intellegeance wihin the business world and in a later 
+      report refers to the same information in the orginal report and does not refrence the orginal report which they wrote.
+
+      Mosaic plagiarism: A student writes a report on the advantages of the frame work React vs the frame work Vue and compies snetences 
+      from mutiple websites and patses them together to give the appearance that it is the student's orginal work and does not refrence 
+      any of the authors.
+
+      // Used the website https://www.quetext.com/blog/examples-of-unintentional-plagiarism and https://www.usg.edu/galileo/skills/unit08/credit08_04.phtml 
+      // to further help formulate my answer.
+      Accidential plagiarism: A student writes a report on world war two hsitory, specifically how the Unites States entered the war 
+      and dicuss the bombing of Pearl Harbour, but did not refrence a source because the student thought it was general knowlegde.
+
+// I used https://guides.library.ucla.edu/citing/plagiarism/avoid to help formulate my answer.
+3. In order for me to avoid plagerism, i will ensure that I properly refrence the information corrcetly and fully whithin writing a 
+document or coding, as well as paraphrasing as much as possible when formulating my answers and writing code.
+
+
+

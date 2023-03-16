@@ -1,0 +1,20 @@
+prompt the user to input a number
+  store the number the user inputed into a variable, n
+workout if the number the user inputed is a prime
+  if the n > 1
+    loop over the range of n starting at 2 and stopping at the floor division of n
+      divide n by the current index of the loop
+        if a reminder = 0
+          print "Not prime"
+        if none of the reinders = 0 
+          print "Prime"
+
+
+https://www.edureka.co/blog/python-program-prime-number/#prime
+https://www.w3schools.com/python/python_operators.asp
+https://www.educative.io/answers/floor-division
+https://www.google.com/search?q=modulo+meaning&rlz=1C5CHFA_enZA975ZA975&oq=modulo+meaning+&aqs=chrome..69i57j35i39i362l8.2094j0j7&sourceid=chrome&ie=UTF-8
+Used the appove links to answer the question.
+
+      
+

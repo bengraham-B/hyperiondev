@@ -1,0 +1,28 @@
+Scenario 1:
+      if the user entered a letter 
+         prompt user to enter another letter 
+      if the user has input a number 
+         stop prompting the user for random letters and return the total number of vowels(a, e, i, o, u) which the user entered.
+           "You enter this amount of vowels: <amountOfVowels>"
+
+Scenario 2:
+      determine if the number is even or odd
+      if the number is even
+        add it to an array storing even numbers 
+      if the number is odd 
+        add it to an array storing odd numbers 
+      if the number is zero 
+        move on to the next number 
+
+      add the numbers of the even numbers array and then divivde by the amount of numbers in the array
+        then return the average of the even numbers array 
+      add the numbers of the odd numbers array and then divivde by the amount of numbers in the array
+        then return the average of the odd numbers array 
+
+Scenario 3:
+      open list and loop over values 
+        print the names beging with 'a'
+        print out names beging with 'b' 
+          and so on through all the letters of the alphabet 
+      
+

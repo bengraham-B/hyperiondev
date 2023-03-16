@@ -1,0 +1,36 @@
+Propmpt user for which metric it is currently in
+      store in variable, userCurrentMetric
+
+
+Prompt user for their current temperature
+      store it in a variable, userCurrentTemp
+
+
+Prompt user for which mertic they wish to convert too
+      store in variable, tempUserWantsToConvertToo
+
+switch statement
+      userCurrentTemp == "Celcius"
+            case userCurrentMetric == "C" && tempUserWantsToConvertToo == "F"
+                  Convert Celcius to farenheit 
+            
+            case userCurrentMetric == "C" && tempUserWantsToConvertToo == "K"
+                  Convert Celcius to Kalvin
+
+      
+      userCurrentTemp == "Farenheit"
+            case userCurrentMetric == "F" && tempUserWantsToConvertToo == "C"
+                  Convert  farenheit to Celcius
+            
+            case userCurrentMetric == "F" && tempUserWantsToConvertToo == "K"
+                  Convert farenheit to Kalvin
+
+      
+      userCurrentTemp == "Kelvin"
+            case userCurrentMetric == "K" && tempUserWantsToConvertToo == "C"
+                  Convert Kalvin to Celcius 
+            
+            case userCurrentMetric == "K" && tempUserWantsToConvertToo == "F"
+                  Convert Kalvin to Farenheit
+      
+

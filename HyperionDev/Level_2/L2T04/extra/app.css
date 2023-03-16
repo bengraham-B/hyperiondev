@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#body{
+    width: 200px;
+    height: auto; 
+    background: red;
+    color: white;
+}
+
+#parent-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#div{
+    margin: 5px;
+    
+}

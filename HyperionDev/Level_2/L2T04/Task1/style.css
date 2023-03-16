@@ -1,0 +1,86 @@
+/*~ --- Basic Styling --- */
+
+body{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: rgb(61, 60, 60);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background: rgb(16, 255, 163);
+    padding: 50px;
+}
+
+input {
+    padding: 5px;
+}
+
+#submit-btn {
+    margin: 25px;
+    padding: 5px;
+    font-size: 17px;
+    background: rgb(0, 217, 255);
+    color: white;
+}
+
+/*~ This is where the books from sessesion storage are being printed out to */
+#book-info {
+    margin: 50px;
+    background: rgb(65, 69, 65);
+
+    height: auto;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#book {
+
+    background: rgb(50, 59, 57);
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 20px;
+
+    outline: white 1px solid;
+
+}
+
+.book-number {
+    text-align: start;
+
+}
+
+.book-div {
+    margin: 12px;
+}
+
+#deleteBtn {
+    border: 1px white solid;
+    padding: 3px 25px 3px 25px;
+    background: white;
+}
+
+
+#edit-btn {
+    border: 1px white solid;
+    margin: 15px;
+    background: white;
+    color: blue
+}
+

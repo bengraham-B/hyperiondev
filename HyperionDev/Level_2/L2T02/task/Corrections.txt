@@ -1,0 +1,11 @@
+
+---  TODO   ---
+
+
+
+--- Done ---
+(1) Unfortunately, you have not added the key up event listener to the input in order to be able to add new 
+    shopping items to th elist by clicking on the keyboard "ENTER" key.
+
+(2) Also you have not toggling the checked class when a user clicks on a shopping list item that toggles 
+    styling to represent that the item has been checked off.

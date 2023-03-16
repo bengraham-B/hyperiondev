@@ -1,0 +1,12 @@
+Scenario 1:
+      prompt user to input their names
+        store the user's name in a variable called 'firstName'
+          print "hello firstName"
+
+
+
+Scenario 2:
+      prompt user for their age 
+        store the user's age in a variable called 'age' 
+      then minus the user's age from the current year
+          "Based on your age of [age given], it looks like you were born in [year calculated]"

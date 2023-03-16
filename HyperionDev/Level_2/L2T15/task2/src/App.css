@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-TodoOutput{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TodoOutput {
+  margin: 20px;
+  width: 400px;
+  min-height:200px; /*^ Sets the default height for the container holding all the todos.*/
+  height: auto;
+
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px 1px grey;
+}
+
+/*^ This is the style which will be added once the todo is marked as completed.*/
+.completed{
+  color: black;
+  text-decoration: line-through;
+}
+
+.delete {
+  display: none;
+}
+
+.todo-output-div{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+
+}
+
+.todo {
+  display: flex;
+  width: 90%;
+  height: 50px;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: space-around;
+}
