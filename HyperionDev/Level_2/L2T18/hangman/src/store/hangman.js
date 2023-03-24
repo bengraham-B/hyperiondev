@@ -17,6 +17,7 @@ export const hangmanSlice = createSlice({
             {guess:"O", show: false}, 
             {guess:"N", show: false}, 
         ],
+        rules: false,
         lives: 1,
         gameEnd: false,
         letters: [
@@ -127,6 +128,7 @@ export const hangmanSlice = createSlice({
             
         },
 
+        //^ Removes a letter from the keboard, diplayed by the 'displayLetter' reducer
         removeChoosenLetter: (state, letter) => {
             //* if the word contains the user's letter: true
             if (state.word.split("").includes(letter.payload)){ //* (1)www.w3schools.com/
@@ -141,12 +143,19 @@ export const hangmanSlice = createSlice({
 
                 })
             }
+        },
+
+        //^ Tracks the state, regarding showing the rules and the button to show the rules.
+        showRules:(state, currentState) => {
+            console.log("currentState.payload:", currentState.payload)
+            state.rules = !state.rules
+
         }
 
     }
 })
 
-export const {displayLetter, removeChoosenLetter, displayGueses, playerLivesCount} = hangmanSlice.actions 
+export const {displayLetter, removeChoosenLetter, displayGueses, playerLivesCount, showRules} = hangmanSlice.actions 
 export default hangmanSlice.reducer
 
 

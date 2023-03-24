@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react'
-import './game.css'
 import { useDispatch, useSelector } from 'react-redux'
 import { playerLivesCount } from '../../store/hangman' //^ Importing Reducers
 
