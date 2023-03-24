@@ -1,0 +1,25 @@
+#GAME_CONTAINER {
+    width: 100%;
+    height: 300px;
+    background: orange;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .img-container{
+        // width: 700px;
+        // height: 500px;
+        // background-image: $state3;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        img{
+            // width: 500px;
+            height: 300px;
+
+        }
+
+
+    }
+}

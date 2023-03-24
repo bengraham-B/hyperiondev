@@ -1,0 +1,15 @@
+#GAME_CONTAINER {
+  width: 100%;
+  height: 300px;
+  background: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#GAME_CONTAINER .img-container {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#GAME_CONTAINER .img-container img {
+  height: 300px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+.letter-selection-container {
+    height: 240px;
+    /* padding: 40px ; */
+    background: grey;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.letter-selection-letter-button {
+    margin: 7.5px;
+    height: 65px;
+    width: 90px;
+    font-size: 2.4em;
+
+    background: inherit;
+    border: white 1px solid;
+    color: white;
+}
+
+.letter-selection-letter-button:hover {
+
+    background: blue;
+
+
+}
