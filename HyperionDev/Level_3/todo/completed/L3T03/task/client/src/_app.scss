@@ -1,0 +1,40 @@
+#App{
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: $grey;
+
+    .app-container {
+       
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        
+        .app-links-container {
+            
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            
+            .links {
+                color: $green;
+                font-size: 2.1em;
+            }
+        }
+
+        .views-container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+    }
+
+}

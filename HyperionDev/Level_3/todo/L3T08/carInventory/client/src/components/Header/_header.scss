@@ -1,0 +1,17 @@
+#HEADER {
+    width: 100%;
+    min-height: 100px;
+
+
+    .title-container{
+        @include flex();
+        width: 100%;
+        min-height: 100px;
+        background: $primaryBG;
+        h1 {
+            color: $primaryColor;
+            font-size: 3em;
+
+        }
+    }
+}

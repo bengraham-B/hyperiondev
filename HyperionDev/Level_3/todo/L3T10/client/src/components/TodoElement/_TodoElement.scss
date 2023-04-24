@@ -1,0 +1,33 @@
+#TodoElement {
+    width: 70%;
+    height: 100px;
+    background: $color;
+    color: $background;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .left {
+        display: grid;
+        grid-template-rows: 50% 50%;
+
+        .details-container {
+            background: red;
+
+        }
+
+        .created-at-container {
+            background: orange;
+        }
+    }
+
+    .right {
+
+        .button-container {
+            background: green;
+            height: 100%;
+            @include flex;
+
+        }
+    }
+}

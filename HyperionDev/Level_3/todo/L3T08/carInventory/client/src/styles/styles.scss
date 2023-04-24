@@ -1,0 +1,40 @@
+//& Google Fonts: Poppins
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poppins:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+//& Variables
+$primaryBG: #00337C;
+$secondaryBG:  #13005A;
+$thirdBG: #3A1078;
+
+
+$primaryColor: #03C988;
+$secondaryColor: #FF6D60;
+
+//& Mixins
+@mixin flex(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// & Importing style sheets
+//^ App
+@import './App';
+
+//^ Components 
+@import '../components/Header/header';
+@import '../components/CarElement/CarElement';
+@import '../components/Form/Form';
+@import '../components/MultiUpdate/MultiUpdate';
+
+
+//^ Pages
+@import '../pages/Home';
+

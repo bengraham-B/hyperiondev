@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Nabla&family=Poppins:wght@200;300&display=swap");
+* {
+  font-family: "poppins";
+  margin: 0;
+  padding: 0;
+}
+
+#App {
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(40, 39, 39);
+}
+#App .app-container {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+}
+#App .app-container .app-links-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#App .app-container .app-links-container .links {
+  color: rgb(0, 255, 132);
+  font-size: 2.1em;
+}
+#App .app-container .views-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#GET111111111 {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: auto;
+  background: orange;
+  margin: 10px;
+  padding: 12px;
+}
+
+#POST {
+  margin: 20px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#POST h1 {
+  color: rgb(0, 255, 132);
+}
+#POST .inputs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#POST .inputs-container .input-wrapper {
+  margin: 20px;
+}
+#POST .inputs-container .input-wrapper input {
+  padding: 10px;
+  width: 400px;
+  background: inherit;
+  color: rgb(0, 255, 132);
+  outline: none;
+  border: 1px solid rgb(0, 255, 132);
+  border-radius: 15px;
+}
+#POST .inputs-container .input-wrapper textarea {
+  padding: 5px;
+  width: 400px;
+  background: inherit;
+  color: rgb(0, 255, 132);
+  outline: none;
+  border: 1px solid rgb(0, 255, 132);
+  border-radius: 15px;
+}
+#POST .button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#POST .button-container button {
+  margin: 15px;
+  border-radius: 15px;
+  width: 110px;
+  height: 50px;
+  color: rgb(40, 39, 39);
+  outline: none;
+  border: none;
+  background: rgb(0, 255, 132);
+  font-size: 1.2em;
+}
+#POST .button-container button:hover {
+  box-shadow: 1px 1px 10px 1px rgb(0, 255, 132);
+}
+
+#Element {
+  background: rgb(0, 255, 132);
+  color: rgb(40, 39, 39);
+  padding: 25px;
+  margin: 10px;
+  width: 900px;
+  border-radius: 15px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 85% 15%;
+}
+#Element .button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Element .button-container button {
+  margin: 15px;
+  border-radius: 15px;
+  width: 110px;
+  height: 50px;
+  color: rgb(0, 255, 132);
+  outline: none;
+  background: rgb(40, 39, 39);
+  border: rgb(40, 39, 39) 2px solid;
+  font-size: 1.2em;
+}
+#Element .button-container button:hover {
+  box-shadow: 1px 1px 10px 2px rgb(40, 39, 39);
+}/*# sourceMappingURL=styles.css.map */

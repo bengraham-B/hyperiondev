@@ -1,0 +1,108 @@
+#CarElement{
+    width: 1000px;
+    background: $thirdBG;
+    border-radius: 15px;
+    margin: 15px;
+    min-height: 60px;
+    max-width: auto;
+    padding: 15px;
+
+    .details-container {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        grid-template-rows: 100%;
+
+        //& Inputes when the user selects the edit button.
+        input {
+            border-radius: 15px;
+            padding: 5px;
+            font-size: 21px;
+            border: none;
+            background: $secondaryBG;
+            color: $primaryColor;
+            margin: 5px;
+        }
+
+        .left {
+
+            .make{
+                display: flex;
+                flex-direction: column;
+                font-size: 1.8em;
+    
+                .model {
+                    font-size: 0.6em;
+                }
+            }
+        }
+
+        .center {
+            display: gird;
+            grid-template-columns: 50% 50%;
+            @include flex;
+
+            .owner-details {
+                width: 100%;
+                @include flex;
+                flex-direction: column;
+
+                .owner {
+                    color: white;
+                    font-size: 1.6em;
+    
+                }
+    
+                .address {
+                    @include flex;
+                    text-align: center;
+                    font-size: 1.2em;
+
+    
+    
+                }
+            }
+
+            .registration-wrapper {
+                @include flex;
+                width: 100%;
+                height: 100%;
+                font-size: 1.4em;
+                
+                .registration {
+                    text-align: center;
+                }
+               
+            }
+
+
+
+
+        }
+        // The sections is where the delete and update buttons are/
+        .right {
+            @include flex;
+            justify-content: space-around;
+
+            button {
+                width: 120px;
+                height: 60px;
+                border-radius: 15px;
+                outline: none;
+                border: none;
+                background: $secondaryBG;
+                color: $primaryColor;
+                font-size: 1.1em;
+
+                &:hover {
+                    background: $primaryColor;
+                    color: $secondaryBG;
+                }
+            }
+
+
+
+
+        }
+
+    }
+}

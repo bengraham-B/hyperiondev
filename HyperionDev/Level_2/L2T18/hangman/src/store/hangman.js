@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-
 export const hangmanSlice = createSlice({
     name: "hangman",
 
@@ -8,14 +7,13 @@ export const hangmanSlice = createSlice({
         word: "AVIATION",
         userGuess: [],
         gueses: [
+            {guess:"G", show: false}, 
+            {guess:"R", show: false}, 
             {guess:"A", show: false}, 
-            {guess:"V", show: false}, 
-            {guess:"I", show: false}, 
+            {guess:"H", show: false}, 
             {guess:"A", show: false}, 
-            {guess:"T", show: false}, 
-            {guess:"I", show: false}, 
-            {guess:"O", show: false}, 
-            {guess:"N", show: false}, 
+            {guess:"M", show: false}, 
+
         ],
         rules: false,
         lives: 1,
@@ -52,45 +50,42 @@ export const hangmanSlice = createSlice({
 
     //! All reducers are called in 4.LetterSection/LetterSelection.js
     reducers: {
-        //^ Displays leeters to the screen to form the keyboard
+        //^ Displays leeters to the screen, which form the keyboard for the user to input their guesses.
         displayLetter: (state, letter) => {
             state.userGuess.push({userLetter:letter.payload})
 
             //^ Checks to see if the user inputed letter is contained within the word
             if (!state.word.includes(letter)){ //* (1)www.w3schools.com/
                 if(state.lives === 0){
-                    alert("GAME OVER")
-                    state.gameEnd = true
-
-                   
+                    alert("GAME OVER")                   
                 }
             }
-
         },
 
-        playerLivesCount: (state, letter) => {
-            //TODO if the letter is correct do not add one to lofe by using an if statement...
-            console.log("playerLives from REDUX:",letter.payload)
 
+
+
+
+
+        playerLivesCount: (state, letter) => {
             const guesesArray = []
 
             for(let i = 0; i < state.gueses.length; i++){
                 guesesArray.push(state.gueses[i].guess)
             }
-                console.log(guesesArray)
-
                 if(!guesesArray.includes(letter.payload)){
                     state.lives = state.lives + 1
                 }
 
             //* This reducer is mainly used in 2.Game/Game.js
-            // console.log("playerLives from REDUX:", state.lives)
             if(state.lives < 12){
-                // state.lives = state.lives + 1
+
             }
             else{
                 state.lives = 1
 			    alert("GAME OVER :( ")
+
+                state.gameEnd = true
 
                 //& This will reset the user gueses if they loose the game
                 for(let i = 0; i < state.gueses.length; i++){
@@ -98,11 +93,14 @@ export const hangmanSlice = createSlice({
                 }
 
             }
-
-
         },
 
-        //^ Displays all the correct guesses the user made.
+
+
+
+
+
+        //^ Displays all the correct guesses the user made within the 3.UserLetters component.
         displayGueses: (state, letter) => {
             console.log(state.lives)
             //& Cheks if user's letter matches with letters in the state.guess object/
@@ -123,39 +121,67 @@ export const hangmanSlice = createSlice({
             //? (2) bobbyhadz.com
             if(guesesArray.every(element => element === true)){
                 alert("WON")
+                state.gameEnd = true
+
+                // //& This for loop resets the 3.UserLetters component, when the user fails or compeletes the game
+                for(let i = 0; i < state.gueses.length; i++){
+                    state.gueses[i].show = false
+                    console.log("BOOOOOOOOOOOOOOOO", state.gueses[i].choosen)
+                }
             }
-            
-            
+
         },
+
+
+
+
+
 
         //^ Removes a letter from the keboard, diplayed by the 'displayLetter' reducer
         removeChoosenLetter: (state, letter) => {
             //* if the word contains the user's letter: true
-            if (state.word.split("").includes(letter.payload)){ //* (1)www.w3schools.com/
-
-            }
-
-            //! if the word does not contains the user's letter: false
-            else {
-
-                state.letters = state.letters.filter((obj) => {
+            if(!state.word.split("").includes(letter.payload) || state.word.split("").includes(letter.payload)){ //* (1)www.w3schools.com/
+                  state.letters = state.letters.filter((obj) => {
                     return obj.letter !== letter.payload
-
                 })
             }
         },
 
-        //^ Tracks the state, regarding showing the rules and the button to show the rules.
+        //^ Tracks the state, regarding showing the rules and the button to close the rules components.
         showRules:(state, currentState) => {
             console.log("currentState.payload:", currentState.payload)
             state.rules = !state.rules
+        },
 
+
+
+
+
+
+        resetGame:(state) => {
+            console.log("from redux LOG")
+
+            state.lives = 1
+
+
+
+            for(let i = 0; i < state.letters.length; i++){
+                state.letters[i].choosen = false
+            }
+
+            //& This for loop resets the 3.UserLetters component, when the user fails or compeletes the game
+            for(let i = 0; i < state.gueses.length; i++){
+                state.gueses[i].show = false
+            }
+
+            //& When the game resets the it changes the state of gameEnd back to its orginal state, false
+            state.gameEnd = false
         }
 
     }
 })
 
-export const {displayLetter, removeChoosenLetter, displayGueses, playerLivesCount, showRules} = hangmanSlice.actions 
+export const {displayLetter, removeChoosenLetter, displayGueses, playerLivesCount, showRules, resetGame} = hangmanSlice.actions 
 export default hangmanSlice.reducer
 
 

@@ -1,0 +1,38 @@
+(1) The benefits of using MongoDB include simple installation, MongoDB is cost effective, user recieve full technical support and MongDB offers its users
+    a full cloud-based developer platform. ((1)https://www.mongodb.com
+)
+(2) In a schemaless database, information is sorted within a JSON-style document ((2)https://www.mongodb.com), and a schemeles database allows the
+    user any data to be saved within within both indidaul fields and structures. 
+    The pros of a schemaless database include the user having greater 
+    flexibility over over the data types within their database ((3)https://www.mongodb.com). There is no data truncation, which means that the database will make 
+    no changes to you data so your infotmation will be saved to its own documnet with its own partial schema which will thus ensure that your raw data is untocuhed as 
+    nothing will be stripped away to match a pre-existing schema ((3)https://www.mongodb.com).
+    The cons of a schemaless database include, there is no generally query language ((2)https://redis.com), there are stillmmany trouble shooting issues which 
+    have not been documented ((2)https://redis.com) and there is inconsistencies in data retrievals due to their distriubted approach to storing data 
+    ((2)https://redis.com).
+
+(3) The reasons why companies such as Amazon, Google, Facebook and Netfilx use NoSQL database, firstly rational databases are not suited for andling the 
+    expotiential growth in real-time data ((4)https://www.linkedin.com), NoSQL databases are also able to work well with current unstrucuterd data such as emails,
+    documents and data releted to the main social media platforms ((4)https://www.linkedin.com) and NoSQL databases can be automatically spread across mutiple 
+    servers ((4)https://www.linkedin.com). Lastly NoSQL databases are highly distributable through clusters of servers, which is then able to hold the database
+    ((4)https://www.linkedin.com).
+
+
+(4) An advatage over a rational database oppsed to a NoSQL database, is that a rational database has a generaly query language, SQL, which will allow the user to 
+    easily retrive data from the database ((5)https://www.educba.com). Furthermore SQL allows users to quickly retive large amounts of data records fomr a 
+    database ((6)https://www.scaler.com) and SQL is a standardised language ((6)https://www.scaler.com), which will allow users to work with mutiple rational
+    datbase management systems (RDMS) such as MySQL, Oracle and Sybase ((7)https://www.solarwinds.com).
+
+
+
+
+
+
+Resounrces Used:
+(1) https://www.mongodb.com/cloud/atlas/lp/try4?utm_content=controldbaasterms&utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_core_prosp-brand_gic-null_emea-za_ps-all_desktop_eng_lead&utm_term=mongo%20saas&utm_medium=cpc_paid_search&utm_ad=p&utm_ad_campaign_id=12212624560&adgroup=115749711543&cq_cmp=12212624560&gclid=CjwKCAjwoIqhBhAGEiwArXT7K2CXVygO0Syv2YDXb-v9MwWq-aaVwmE4lLIfymSHgJr01L6fzq5aVBoCHeEQAvD_BwE : information regarding the benefits of MongoDB
+(2) https://redis.com/blog/schemaless-databases/ : Information regarding a schemaless database, pros and cons.
+(3) https://www.mongodb.com/unstructured-data/schemaless : Benefits of using a schemaless database.
+(4) https://www.linkedin.com/pulse/why-amazon-google-netflix-facebook-switched-nosql-shannon-block-cfe/ : Why companies use NoSQL databases.
+(5) https://www.educba.com/relational-database-advantages/ : information on SQL
+(6) https://www.scaler.com/topics/advantages-of-sql/ : information on SQL
+(7) https://www.solarwinds.com/resources/it-glossary/sql-database#:~:text=Relational%20databases%20are%20built%20using,%2C%20and%20Sybase%2C%20among%20others. : information on SQL

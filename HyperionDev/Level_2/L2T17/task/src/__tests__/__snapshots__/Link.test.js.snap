@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders Correctly 1`] = `
+<div>
+  <a
+    href="	https://swapi.dev/api/people/1/"
+  >
+    Star Wars API: Luke Skywalker
+  </a>
+</div>
+`;

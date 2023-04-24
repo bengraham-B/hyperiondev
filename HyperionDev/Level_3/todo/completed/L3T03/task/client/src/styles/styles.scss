@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poppins:wght@200;300&display=swap');
+*{
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+}
+
+
+// & Variables 
+$grey: rgb(40, 39, 39);
+$green: rgb(0, 255, 132);
+
+
+@import '../app';
+@import '../views/Get/get';
+@import '../views/Post/post';
+@import '../views/element/element';

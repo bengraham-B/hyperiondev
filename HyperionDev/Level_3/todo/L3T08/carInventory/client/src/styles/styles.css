@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Nabla&family=Poppins:wght@200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+#APP {
+  background: #13005A;
+  color: #FF6D60;
+  min-height: 100vh;
+  max-height: auto;
+}
+
+#HEADER {
+  width: 100%;
+  min-height: 100px;
+}
+#HEADER .title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100px;
+  background: #00337C;
+}
+#HEADER .title-container h1 {
+  color: #03C988;
+  font-size: 3em;
+}
+
+#CarElement {
+  width: 1000px;
+  background: #3A1078;
+  border-radius: 15px;
+  margin: 15px;
+  min-height: 60px;
+  max-width: auto;
+  padding: 15px;
+}
+#CarElement .details-container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 100%;
+}
+#CarElement .details-container input {
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 21px;
+  border: none;
+  background: #13005A;
+  color: #03C988;
+  margin: 5px;
+}
+#CarElement .details-container .left .make {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8em;
+}
+#CarElement .details-container .left .make .model {
+  font-size: 0.6em;
+}
+#CarElement .details-container .center {
+  display: gird;
+  grid-template-columns: 50% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#CarElement .details-container .center .owner-details {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#CarElement .details-container .center .owner-details .owner {
+  color: white;
+  font-size: 1.6em;
+}
+#CarElement .details-container .center .owner-details .address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2em;
+}
+#CarElement .details-container .center .registration-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 1.4em;
+}
+#CarElement .details-container .center .registration-wrapper .registration {
+  text-align: center;
+}
+#CarElement .details-container .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+#CarElement .details-container .right button {
+  width: 120px;
+  height: 60px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background: #13005A;
+  color: #03C988;
+  font-size: 1.1em;
+}
+#CarElement .details-container .right button:hover {
+  background: #03C988;
+  color: #13005A;
+}
+
+#Form {
+  width: 350px;
+  background: #3A1078;
+  min-height: 300px;
+  max-height: auto;
+  margin: 20px;
+  padding: 20px;
+}
+#Form .title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#Form .input-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+#Form .input-container h3 {
+  font-size: 1.3em;
+}
+#Form .input-container input {
+  border-radius: 15px;
+  padding: 7.5px;
+  font-size: 21px;
+  border: none;
+  background: #13005A;
+  color: #03C988;
+  margin: 5px;
+}
+#Form .button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+#Form .button-container button {
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background: #13005A;
+  color: #03C988;
+  font-size: 1.1em;
+}
+#Form .button-container button:hover {
+  background: #03C988;
+  color: #13005A;
+}
+
+#Multi-delete {
+  width: 100%;
+  min-height: 100px;
+  max-height: auto;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  background: #3A1078;
+}
+#Multi-delete .title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#Multi-delete .input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#Multi-delete .input-container input {
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 21px;
+  border: none;
+  background: #00337C;
+  color: #03C988;
+  margin: 5px;
+}
+#Multi-delete .button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Multi-delete .button-container button {
+  width: 120px;
+  height: 60px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background: #13005A;
+  color: #03C988;
+  font-size: 1.1em;
+}
+#Multi-delete .button-container button:hover {
+  background: #03C988;
+  color: #13005A;
+}
+
+#Home {
+  min-height: 90vh;
+  max-height: auto;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+#Home .older-then-five-years-container {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Home .older-then-five-years-container button {
+  width: auto;
+  height: 60px;
+  padding: 10px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background: #03C988;
+  color: #00337C;
+  font-size: 1.1em;
+}
+#Home .older-then-five-years-container button:hover {
+  background: #FF6D60;
+  color: #13005A;
+}
+#Home .bottom {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=styles.css.map */

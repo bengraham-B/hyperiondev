@@ -1,0 +1,9 @@
+(1) I made use of redux to refrsh the page when the users deletes or updates an element from the array 
+    of objects stored in 'server/data.json', which will give a in-real-time feel to it.
+
+(2) I used React router to change between the GET method, which will display all the data from the 
+    backend and POST, which is a form which will send the data to the backend.
+
+(3) The DELETE and PUT methods are used with in the Element component with in the frontend of the app.
+
+(4) I used SASS to style the react app

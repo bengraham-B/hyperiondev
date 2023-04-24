@@ -26,4 +26,13 @@
   padding: 10px;
   font-size: 15px;
   margin: 5px;
+}
+
+#RESTART_BUTTON button {
+  color: white;
+  background: darkblue;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  margin: 5px;
 }/*# sourceMappingURL=style.css.map */

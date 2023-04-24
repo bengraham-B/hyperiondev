@@ -1,0 +1,5 @@
+The user should be able to restart the game, especially once the game has been won or lost.
+
+Please use comments to explain your code, such as describing what your functions/methods do and a top-level 
+comment explaining what is happening in the file. Your comments will help the code to be understandable and 
+maintainable and improve the quality of your submissions.

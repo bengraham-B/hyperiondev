@@ -1,0 +1,6 @@
+(1) I was unable to put my header component in the Layout folder.
+(2) The pages of the application, about.js, contact.js and project.js have componets in them which comes from their repsective componet folder.
+(3) In the componets folder the Header and Title folder will be used on each page and the Layout component will be the home page("/") of the 
+    application.
+(4) The application is styled using styled-jsx.
+(5) The static image in the ProjectOne.js component, comes from the public folder as i was unable to server the image from the static folder.

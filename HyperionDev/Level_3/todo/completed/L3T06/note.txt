@@ -1,0 +1,6 @@
+
+My version of mongoDB Atlas is later then the one in the task folder, so I am not 
+sure if I properly added the allreviewers@hyperiondev.com and if I granted access correctly. 
+
+I also battled to follow the instructions in the preview of how to set up a cluster, as my
+version is a later one, as my version looked very different to that of what is in the instructions.

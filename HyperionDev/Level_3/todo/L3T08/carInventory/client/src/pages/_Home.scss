@@ -1,0 +1,45 @@
+#Home {
+    min-height: 90vh;
+    max-height: auto;
+
+    width: inherit;
+
+    display: flex;
+    flex-direction: column;
+
+    .top{
+
+    }
+
+    .older-then-five-years-container {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        @include flex();
+
+        button {
+            width: auto;
+            height: 60px;
+            padding: 10px;
+            border-radius: 15px;
+            outline: none;
+            border: none;
+            background: $primaryColor;
+            color: $primaryBG;
+            font-size: 1.1em;
+
+            &:hover {
+                background: $secondaryColor;
+                color: $secondaryBG;
+            }
+        }
+
+    }
+    .bottom {
+        display: flex;
+        flex-direction: row;
+
+
+
+    }
+}

@@ -1,0 +1,12 @@
+The user should be able to restart the game, especially once the game has been won or lost.
+
+Please use comments to explain your code, such as describing what your functions/methods do and a top-level 
+comment explaining what is happening in the file. Your comments will help the code to be understandable and 
+maintainable and improve the quality of your submissions.
+
+--- My Correcttions ---
+(1) Added resetGame reducer at /store/hangmna.js and calling this reducer in 
+    4.letterSelection/LetterSelection.js. which will restart the game if the player wins or losses.
+
+(2) Reset Button. Makes use of the resetGame reducer at /store/hangmna.js, and is reated in the 6.ResetButton/ResetButton.js 
+    file, which will reset the game once the user presses the button and set all the REDUX state to back to their default value.

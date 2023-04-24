@@ -1,0 +1,16 @@
+JSON
+JSON(Javascript Object Notation) is exchange format readable by humans and alothough it is 
+based on Javascript, it  islanguage-indepenedent ((1)https://www.mongodb.com), which 
+means that JSON can be used with other programming languages ((2)https://learn.microsoft.com).
+
+BSON
+BSON stands for Binary JSON((1)https://www.mongodb.com), which is a serialized version of a JSON document,
+which menas it not human readable like JSON and BSON is used within MongoDB ((3)https://www.geeksforgeeks.org)
+
+
+
+
+Resources Used:
+(1) https://www.mongodb.com/json-and-bson : Inofmation on JSON and BSON.
+(2) https://learn.microsoft.com/en-us/dotnet/standard/language-independence : Inofmation on language-independency 
+(3) https://www.geeksforgeeks.org/difference-between-json-and-bson/ : Infomration on BSON

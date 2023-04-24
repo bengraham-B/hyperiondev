@@ -19,8 +19,6 @@ function App() {
   const handleInput = () => {
 
 	dispatch(addNewTodo(input)); //^ 'input' is defined on line 12, as a state variable
-
-
   };
 
   const handleEdit = (id) => {
@@ -34,16 +32,16 @@ function App() {
 
   const handleComplete = (id) => {
 	  
-	  
-	if (todo[id].completed) {
-		const completedTodo = document.getElementById(id);
-		completedTodo.setAttribute("class", "completed");
-	} 
-		
-	else {
-		const completedTodo = document.getElementById(id);
-		completedTodo.setAttribute("class", "completedNot"); //*(2) www.javascripttutorial.net
-	}
+      
+    if (todo[id].completed) {
+      const completedTodo = document.getElementById(id);
+      completedTodo.setAttribute("class", "completed");
+    } 
+      
+    else {
+      const completedTodo = document.getElementById(id);
+      completedTodo.setAttribute("class", "completedNot"); //*(2) www.javascripttutorial.net
+    }
 	
 	dispatch(complete(id));
   };

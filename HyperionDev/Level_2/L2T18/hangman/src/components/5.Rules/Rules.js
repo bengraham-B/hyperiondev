@@ -23,6 +23,7 @@ export default function Rules() {
 		</ol>
 
 		<button onClick={handleCloseRules}>Close Rules</button>
+
     </div>
   )
 }

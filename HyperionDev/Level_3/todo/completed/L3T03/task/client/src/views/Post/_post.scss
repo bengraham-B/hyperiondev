@@ -1,0 +1,74 @@
+#POST {
+    margin: 20px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+
+    h1 {
+        color: $green;
+    }
+
+	.inputs-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+
+		.input-wrapper{
+			margin: 20px;
+
+			input{
+				padding: 10px;
+				width: 400px;
+				background: inherit;
+				color: $green;
+				outline: none;
+				border: 1px solid $green;
+				border-radius: 15px;
+			}
+
+			textarea{
+				padding: 5px;
+				width: 400px;
+				background: inherit;
+				color: $green;
+				outline: none;
+				border: 1px solid $green;
+				border-radius: 15px;
+
+			}
+
+			
+		}
+
+	}
+
+	.button-container{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		button {
+            margin: 15px;
+            border-radius: 15px;
+            width: 110px;
+            height: 50px;
+            color:  $grey;
+            outline: none;
+			border: none;
+            background: $green;
+            font-size: 1.2em;
+
+            &:hover{
+                box-shadow: 1px 1px 10px 1px  $green;
+            }
+
+
+        }
+	}
+
+}

@@ -1,0 +1,18 @@
+GET http://localhost:3000/subscribers
+
+### 
+GET http://localhost:3000/subscribers/642b3d3fd346d3e59230455f
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Ben Graham",
+    "subscribedToChannel": "Web Dev Simplified"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/642b3d3fd346d3e59230455f

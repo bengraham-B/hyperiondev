@@ -1,0 +1,49 @@
+#Element {
+    background: $green;
+    color: $grey;
+    padding: 25px;
+    margin: 10px;
+    width: 900px;
+    border-radius: 15px;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 85% 15%;
+
+    .info-container {
+
+
+
+
+    }
+
+    .button-container {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        button {
+            margin: 15px;
+            border-radius: 15px;
+            width: 110px;
+            height: 50px;
+            color: $green;
+            outline: none;
+            background: $grey;
+            border: $grey 2px solid;
+            font-size: 1.2em;
+
+            &:hover{
+                box-shadow: 1px 1px 10px 2px  $grey;
+            }
+
+
+        }
+
+
+
+    }
+
+}

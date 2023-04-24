@@ -1,0 +1,33 @@
+{
+   "BG23010006078":{ 
+        "student-details": {
+            "name": "Ben Graham",
+            "student-number": "BG23010006078",
+            "address": "15 Smith Street Somerset West",
+            "date-of-birth": "8 May 2001"
+        },
+    
+        "course-details":{
+            "mode": "part-time",
+            "metod": "online",
+            "course-start": "13 January 2023",
+            "course-end": "15 June 2023",
+            "course-name": "fullstack web developer",
+            "levels-compeleted": {
+                "level-one": "compeleted",
+                "level-two": "compeleted",
+                "level-three": "incomplete"
+            }
+        },
+
+        "payments": {
+            "13 January 2023": true,
+            "13 Feburary 2023": true,
+            "13 March 2023": true,
+            "13 April 2023": false,
+            "13 May 2023": false,
+            "13 Jun 2023": false
+        }
+    }
+
+}
