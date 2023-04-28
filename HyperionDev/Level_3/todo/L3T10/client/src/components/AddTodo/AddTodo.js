@@ -14,7 +14,7 @@ export default function AddTodo() {
 	
 	const handleAddTodo = async (req, res) => {
 		dispatch(refresh())
-		const postToso = await fetch(`/api/todos?details=${addTodo}`, {
+		const postTodo = await fetch(`/api/todos?details=${addTodo}`, {
 			method: "POST",
 			headers: {
 				'Content-Type': 'application/json'
@@ -23,7 +23,9 @@ export default function AddTodo() {
 		})
 		dispatch(refresh())
 
-		res.status(200).json(postToso)
+		setAddTodo("") //^Clearing the input after the user has added a todo.
+		res.status(200).json(postTodo)
+
 
 
 
@@ -32,7 +34,7 @@ export default function AddTodo() {
 		<div id="AddTodo">
 			<div className="container">
 				<div className="input-container" >
-					<input type="text" onChange={(e) => setAddTodo(e.target.value)}/>
+					<input type="text"  value={addTodo} onChange={(e) => setAddTodo(e.target.value)}/>
 				</div>
 				<div className="button-container">
 					<button onClick={handleAddTodo}>Add Todo</button>

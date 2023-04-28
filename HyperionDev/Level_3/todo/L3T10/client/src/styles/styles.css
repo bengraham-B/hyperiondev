@@ -80,28 +80,49 @@
 }
 
 #TodoElement {
-  width: 70%;
-  height: 100px;
+  width: 60%;
+  min-height: 100px;
+  max-height: 400px;
   background: #17B978;
   color: #071A52;
   margin: 20px;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 65% 35%;
+  border-radius: 15px;
 }
 #TodoElement .left {
   display: grid;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 70% 30%;
 }
 #TodoElement .left .details-container {
+  padding-left: 20px;
+}
+#TodoElement .left .details-container input {
   background: red;
+  min-width: 300px;
+  max-height: auto;
+  font-size: 21px;
+  padding: 7.5px;
+  color: white;
+  background: #071A52;
+  border: none;
+  border-radius: 15px;
 }
 #TodoElement .left .created-at-container {
-  background: orange;
+  padding-left: 20px;
 }
 #TodoElement .right .button-container {
-  background: green;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-content: space-around;
+}
+#TodoElement .right .button-container button {
+  width: auto;
+  height: auto;
+  font-size: 1.82em;
+  padding: 10px;
+  border: none;
+  background: inherit;
 }/*# sourceMappingURL=styles.css.map */

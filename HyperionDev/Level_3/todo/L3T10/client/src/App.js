@@ -44,7 +44,7 @@ export default function App() {
 
 			<div className="todo-element-container">
 				{response?.todosGet && response.todosGet.map((todo) => (
-					<TodoElement details={todo.details} createdAt={todo.createdAt} _id={todo._id}/>
+					<TodoElement details={todo.details} created={todo.created} _id={todo._id}/>
 					
 				))}
 
