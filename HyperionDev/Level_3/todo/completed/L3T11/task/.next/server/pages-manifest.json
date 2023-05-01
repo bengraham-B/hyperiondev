@@ -1,0 +1,16 @@
+{
+  "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/AboutComponents/AboutMeComponent": "pages/AboutComponents/AboutMeComponent.html",
+  "/AboutComponents/SkillsComponent": "pages/AboutComponents/SkillsComponent.html",
+  "/AboutComponents/EducationHistory": "pages/AboutComponents/EducationHistory.html",
+  "/AboutComponents/PassionComponent": "pages/AboutComponents/PassionComponent.html",
+  "/ContactComponents/Details": "pages/ContactComponents/Details.html",
+  "/contact": "pages/contact.html",
+  "/ProjectCompoents/ProjectOne": "pages/ProjectCompoents/ProjectOne.html",
+  "/projects": "pages/projects.html",
+  "/": "pages/index.html",
+  "/about": "pages/about.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
