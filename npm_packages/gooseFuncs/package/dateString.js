@@ -1,4 +1,4 @@
-function gooseFuncs2() {
+function dateString() {
     const date = new Date();
     const month = date.getMonth() + 1;
 
@@ -51,9 +51,10 @@ function gooseFuncs2() {
 
         default:
             monthName = "January";
-  }
+    }
 
   return `[${date.getDate()} ${monthName} ${date.getFullYear()} - ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}]`;
 }
 
-module.exports = gooseFuncs2;
+
+module.exports = dateString
