@@ -1,6 +1,6 @@
 {
-  "name": "goose-funcs-2",
-  "version": "1.0.0",
+  "name": "goosefuncs",
+  "version": "3.0.0",
   "description": "a file which shows the current date and time",
   "main": "index.js",
   "scripts": {

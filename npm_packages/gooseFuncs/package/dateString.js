@@ -1,59 +1,41 @@
+// dateString()
 function dateString() {
     const date = new Date();
     const month = date.getMonth() + 1;
+    
+    let monthName
+    // console.log(typeof month)
 
-    let monthName = "January";
-
-    switch (month) {
-        case month === 2:
-            monthName = "Februaury";
-            return;
-
-        case month === 3:
-            monthName = "March";
-            return;
-
-        case month === 4:
-            monthName = "April";
-            return;
-
-        case month === 5:
-            monthName = "May";
-            return;
-
-        case month === 6:
-            monthName = "June";
-            return;
-
-        case month === 7:
-            monthName = "July";
-            return;
-
-        case month === 8:
-            monthName = "August";
-            return;
-
-        case month === 9:
-            monthName = "Septembr";
-            return;
-
-        case month === 10:
-            monthName = "October";
-            return;
-
-        case month === 11:
-            monthName = "November";
-            return;
-
-        case month === 12:
-            monthName = "December";
-            return;
-
-        default:
-            monthName = "January";
+    if (month === 1) {
+        monthName = "January";
+    } else if (month === 2) {
+        monthName = "February";
+    } else if (month === 3) {
+        monthName = "March";
+    } else if (month === 4) {
+        monthName = "April";
+    } else if (month === 5) {
+        monthName = "May";
+    } else if (month === 6) {
+        monthName = "June";
+    } else if (month === 7) {
+        monthName = "July";
+    } else if (month === 8) {
+        monthName = "August";
+    } else if (month === 9) {
+        monthName = "September";
+    } else if (month === 10) {
+        monthName = "October";
+    } else if (month === 11) {
+        monthName = "November";
+    } else if (month === 12) {
+        monthName = "December";
     }
+    
 
-  return `[${date.getDate()} ${monthName} ${date.getFullYear()} - ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}]`;
+
+
+  return (`[${date.getDate()} ${monthName} ${date.getFullYear()} - ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}]`);
 }
 
 

@@ -1,3 +1,4 @@
-const dateString = require("goose-funcs-2")
+const {cl, dateString} = require("goosefuncs")
+cl(dateString())
 
-console.log(dateString())
+dateString()
