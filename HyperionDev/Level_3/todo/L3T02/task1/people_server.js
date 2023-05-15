@@ -1,7 +1,7 @@
 const express = require('express')
 const fs = require('fs')
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3004 
 
 // base function - does nothing but greet
 app.get('/greet', (req, resp)=>{
@@ -58,6 +58,24 @@ app.get('/person/:name', (req, resp)=>{
     }else{
         resp.send('Person does not exist')
     }
+})
+
+// =============================================== Created a put route.
+app.put('/person/', (req, res) => {
+    const name = req.query.name
+    const replace = req.query.replace
+
+    const content = getPeople()
+
+    if(content.indexOf(name)){ //^ Checks if the name the user wants to replace exists
+        const index = content.indexOf(name) //^ If the name exists it stores the index of it in a const
+        content[index] = replace //^ Replaces the name 
+        res.status(200).json(content) //^ sends back a 200, saying that the name has beem successfully updated
+    }
+    else{
+        res.status(404).json("Name not found")
+    }
+
 })
 
 // delete person

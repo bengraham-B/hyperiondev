@@ -5,11 +5,13 @@
   "main": "people_server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node people_server.js"
+    "start": "node people_server.js",
+    "dev": "nodemon people_server.js"
   },
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.22"
   }
 }
